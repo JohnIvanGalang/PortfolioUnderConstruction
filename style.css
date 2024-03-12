@@ -1,0 +1,162 @@
+/* Reusable variables */
+:root {
+    --pixel: "Pixelify Sans", sans-serif;
+}
+/* %centre {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+
+
+
+/* All */
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* body */
+body {
+    background: #181818;
+}
+
+/* main */
+main {
+    padding: 3%;
+}
+
+
+/* navigation bar */
+.for-nav {
+    background: #c6fddf;
+    padding: 3%;
+}
+.for-nav .nav-bar {
+    background: #363636;
+    max-width: 100%;    
+    border-radius: 10px;
+    height: 50px;
+}
+.for-nav .nav-bar p {
+    font-size: 5vh;
+    text-align: center;
+    color: #c6fddf;
+}
+
+
+
+/* intro page[section 1] */
+#section-1 {
+    background: #b9f8f8;
+    height: 500px;
+}
+#section-1 .main-home {
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+#section-1 .main-text {
+}
+#section-1 button {
+    padding: 2%;
+    border-radius: 1cap;
+}
+#section-1 .profile img {
+    border-radius: 2rem;
+    max-height: 400px;
+}
+
+
+/* for cleaning purposes */
+#section-1 div {
+    border: solid red 1px;
+}
+#section-1 p {
+    border: solid #2bff00 1px;
+}
+
+
+
+/* portfolio[section 2] */
+/* UNDERCONSTRUCTION */
+#section-2 {
+    background: black;
+}
+#section-2 .portfolio {
+    text-align: center;
+    color: white;
+    height: 300px;
+}
+/* UNDERCONSTRUCTION */
+
+
+
+/* about me[section 3] */
+#section-3 {
+    background: #f0c8d7;
+}
+#section-3 h1 {
+    text-align: center;
+}
+#section-3 .aboutme-info {
+    display: flex;
+    justify-content: space-around;
+}
+#section-3 .aboutme-info img {
+    height: 300px;
+}
+
+
+
+/* skills[section 4] */
+#section-4 {
+    background: #24597c;
+    text-align: center;
+    color: #ffffff;
+}
+#section-4 .tech-stack {
+    display: flex;
+    justify-content:space-around;
+}
+#section-4 .tech-stack > div {
+    background: #181818;
+}
+ 
+
+
+/* experience status[section 5] */
+/* UNDERCONSTRUCTION */
+#section-5 {
+    background: black;
+}
+#section-5 .experience {
+    text-align: center;
+    color: white;
+    height: 300px;
+}
+/* UNDERCONSTRUCTION */
+
+
+
+/* get in touch[section 6] */
+#section-6 {
+    background: #c6fddf;
+    text-align: center;
+}
+#section-6 h1 {
+    text-align: center;
+}
+
+
+
+/* footer -> CREDITS */
+footer {
+    color: #f2f5e0;
+    text-align: center;
+}
+
+
+
+
+/* @media queries */
